@@ -2,9 +2,16 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import imConsultingImg from "@/public/im-consulting.jpg";
+import informaticaImg from "@/public/Informatica.jpg";
+import carpTravelImg from "@/public/CarpTravel.jpg";
+import legalImg from "@/public/Legal.jpg";
+import newsImg from "@/public/News.jpg";
+import moviesImg from "@/public/movies.jpg";
+import taskProImg from "@/public/TaskPro.jpg";
+import webstudioImg from "@/public/webstudio.jpg";
+import miminoImg from "@/public/mimino.jpg";
 
 export const links = [
   {
@@ -33,6 +40,64 @@ export const links = [
   },
 ] as const;
 
+export const projectsData = [
+  {
+    title: "IM Consulting",
+    description:
+      "Commercial project for the site of couching services company IM Consulting",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: imConsultingImg,
+  },
+  {
+    title: "CarpTravel",
+    description: "Site for Ukrainian Travel agency",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: carpTravelImg,
+  },
+  {
+    title: "Legal",
+    description: "Training site for virtual law firm",
+    tags: ["HTML", "CSS", "SCSS", "Javascript"],
+    imageUrl: legalImg,
+  },
+  {
+    title: "News",
+    description: "Training team project for news site",
+    tags: ["HTML", "CSS", "SCSS", "Javascript"],
+    imageUrl: newsImg,
+  },
+  {
+    title: "Informatica",
+    description: "E-commerce commercial site for computer parts store",
+    tags: ["WordPress", "Woocommerce"],
+    imageUrl: informaticaImg,
+  },
+  {
+    title: "Movies",
+    description: "Movies catalogue platform",
+    tags: ["React", "Axios", "Yup"],
+    imageUrl: moviesImg,
+  },
+  {
+    title: "TaskPro",
+    description: "Tasks management app",
+    tags: ["React", "NodeJS", "MongoDB", "Fullstack"],
+    imageUrl: taskProImg,
+  },
+  {
+    title: "Webstudio",
+    description: "Training site for virtual webstudio",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: webstudioImg,
+  },
+  {
+    title: "Mimino",
+    description: "Training team project for restaurant",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: miminoImg,
+  },
+] as const;
+
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
@@ -57,30 +122,6 @@ export const experiencesData = [
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
-  },
-] as const;
-
-export const projectsData = [
-  {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
