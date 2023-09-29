@@ -129,7 +129,7 @@ export const experiencesData = [
     icon: React.createElement(SiNextdotjs),
     date: "2023, September",
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",
