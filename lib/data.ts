@@ -115,7 +115,7 @@ export const experiencesData = [
   },
   {
     title: "Site Support Manager",
-    location: "Kyiv",
+    location: "Informatica",
     description:
       "I'm currently a site support manager. Responsibilities include site updating and functionality improvements, with a focus on JavaScript and WordPress.",
     icon: React.createElement(BsWordpress),
@@ -124,8 +124,7 @@ export const experiencesData = [
   {
     title: "Frontend developer",
     location: "Kyiv",
-    description:
-      "Participation as an outstaff in the IM Consulting commercial project.",
+    description: "Internship commercial project at SoftRyzen",
     icon: React.createElement(SiNextdotjs),
     date: "2023, September",
   },
@@ -140,7 +139,11 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "CSS Modules",
+  "Styled Components",
   "Tailwind",
+  "Bootstrap",
+  "MUI",
   "MongoDB",
   "Redux",
   "Webflow",
