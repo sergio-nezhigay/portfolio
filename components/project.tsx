@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { AiFillGithub } from "react-icons/ai";
+import { FaGlobe } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +14,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  github,
+  live,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -36,16 +40,40 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+          <ul className="flex flex-wrap mt-4 gap-2">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="text-[0.7rem] bg-white dark:bg-white/70 px-3 py-1 text-black/[0.7] uppercase tracking-wider  dark:text-black/70 rounded"
                 key={index}
               >
                 {tag}
               </li>
             ))}
           </ul>
+          <div className="mt-4 sm:mt-auto flex gap-2">
+            {github && (
+              <a
+                href={github}
+                rel="nofollow noreferrer noopener"
+                target="_blank"
+                className="bg-white text-black/[0.7] hover:text-black py-0.5 px-3 rounded-full outline-none flex 
+              items-center focus:scale-110 hover:scale-110  active:scale-105 transition"
+              >
+                <AiFillGithub className="mr-2" /> GitHub
+              </a>
+            )}
+            {live && (
+              <a
+                href={live}
+                rel="nofollow noreferrer noopener"
+                target="_blank"
+                className="bg-white text-black/[0.7] hover:text-black py-0.5 px-3 rounded-full outline-none flex 
+              items-center focus:scale-110 hover:scale-110  active:scale-105 transition"
+              >
+                <FaGlobe className="mr-2" /> Live page
+              </a>
+            )}
+          </div>
         </div>
 
         <Image
