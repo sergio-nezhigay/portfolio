@@ -13,6 +13,7 @@ import moviesImg from "@/public/movies.jpg";
 import taskProImg from "@/public/TaskPro.jpg";
 import webstudioImg from "@/public/webstudio.jpg";
 import miminoImg from "@/public/mimino.jpg";
+import qleenImg from "@/public/qleen.jpg";
 
 export const links = [
   {
@@ -114,6 +115,14 @@ export const projectsData = [
     imageUrl: miminoImg,
     github: "https://github.com/GregTerekhov/mimino-project",
     live: "https://gregterekhov.github.io/mimino-project/",
+  },
+  {
+    title: "Qleen Landing page",
+    description: "Training project for a cleaning company",
+    tags: ["Webflow"],
+    imageUrl: qleenImg,
+    github: "",
+    live: "https://qleen.webflow.io/",
   },
 ] as const;
 
