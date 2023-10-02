@@ -9,9 +9,9 @@ import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const BASE_URL = "https://serhii.vercel.app/";
-export const TITLE = "Serhii | Personal Portfolio";
-export const DESCRIPTION =
+const BASE_URL = "https://serhii.vercel.app/";
+const TITLE = "Serhii | Personal Portfolio";
+const DESCRIPTION =
   "Serhii is a full-stack developer with 2 years of experience.";
 
 export const metadata = {
