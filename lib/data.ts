@@ -57,8 +57,8 @@ export const projectsData = [
     description: "Site for Ukrainian Travel agency",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: carpTravelImg,
-    github: "https://github.com/sergio-nezhigay/n1",
-    live: "https://carptravel-rouge.vercel.app/",
+    github: "https://github.com/sergio-nezhigay/carptravel",
+    live: "https://carptravelling.vercel.app/",
   },
   {
     title: "Legal",
