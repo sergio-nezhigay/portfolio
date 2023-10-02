@@ -8,6 +8,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaGlobe } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
+import { convertImage, toBase64 } from "@/utils/getBase64";
+const BLUR_COLOR = "#e5e7eb";
 
 export default function Project({
   title,
@@ -80,6 +82,10 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
+          placeholder="blur"
+          blurDataURL={`data:image/svg+xml;base64,${toBase64(
+            convertImage(96, 96, BLUR_COLOR)
+          )}`}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]

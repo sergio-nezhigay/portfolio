@@ -4,11 +4,14 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { convertImage, toBase64 } from "@/utils/getBase64";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+const BLUR_COLOR = "#fcbfa6";
 
 import mainPhoto from "@/public/my-photo.jpg";
 
@@ -37,6 +40,10 @@ export default function Intro() {
               alt="Serhii Nezhyhai portrait"
               quality={85}
               priority={true}
+              placeholder="blur"
+              blurDataURL={`data:image/svg+xml;base64,${toBase64(
+                convertImage(96, 96, BLUR_COLOR)
+              )}`}
               className="h-24 w-24 object-cover rounded-full border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
