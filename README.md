@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to my portfolio website! This platform serves as a canvas to exhibit my skills, projects, and experiences as a [Your Profession or Field]. Take a moment to explore and discover more about me and my work.
+Welcome to my portfolio website! This platform serves as a canvas to exhibit my skills, projects, and experiences as a Frontend developer. Take a moment to explore and discover more about me and my work.
 
 🌐 Visit the live website at [https://serhii.vercel.app/](https://serhii.vercel.app/).
 
