@@ -24,16 +24,16 @@ This website is powered by cutting-edge technologies and frameworks, including:
 
 - 🚀 Next.js App Router
 - 🏭 Next.js Server Actions
-  🔄 Client & Server Components
-  🧪 TypeScript (Beginner & Intermediate)
-  🎨 Tailwind CSS
-  🧩 Context API
-  🎉 Advanced Animations with Framer Motion
-  📧 React.Email & Resend
-  🪝 Custom React Hooks
-  🎨 Sleek, Modern UI Design
-  🌓 Light & Dark Mode
-  📱 Responsive Website Design
+- 🔄 Client & Server Components
+- 🧪 TypeScript (Beginner & Intermediate)
+- 🎨 Tailwind CSS
+- 🧩 Context API
+- 🎉 Advanced Animations with Framer Motion
+- 📧 React.Email & Resend
+- 🪝 Custom React Hooks
+- 🎨 Sleek, Modern UI Design
+- 🌓 Light & Dark Mode
+- 📱 Responsive Website Design
 
 ## Getting Started
 
