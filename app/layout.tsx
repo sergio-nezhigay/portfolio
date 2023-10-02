@@ -9,9 +9,36 @@ import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// export const metadata = {
+//   title: "Serhii | Personal Portfolio",
+//   description: "Serhii is a full-stack developer with 2 years of experience.",
+// };
+
+export const BASE_URL = "https://serhii.vercel.app/";
+export const TITLE = "Serhii | Personal Portfolio";
+export const DESCRIPTION =
+  "Serhii is a full-stack developer with 2 years of experience.";
+
 export const metadata = {
-  title: "Serhii | Personal Portfolio",
-  description: "Serhii is a full-stack developer with 2 years of experience.",
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/",
+    siteName: TITLE,
+    locale: "en",
+    type: "website",
+  },
+  metadataBase: new URL(BASE_URL),
+  manifest: "/meta/manifest.webmanifest",
+  robots: "all",
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
 };
 
 export default function RootLayout({
