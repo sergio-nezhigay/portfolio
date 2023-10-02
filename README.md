@@ -6,7 +6,7 @@
 
 Welcome to my portfolio website! This platform serves as a canvas to exhibit my skills, projects, and experiences as a [Your Profession or Field]. Take a moment to explore and discover more about me and my work.
 
-🌐 Visit the live website at [your-website-url.com](https://your-website-url.com).
+🌐 Visit the live website at [https://serhii.vercel.app/](https://serhii.vercel.app/).
 
 ## Features
 
@@ -22,18 +22,18 @@ Welcome to my portfolio website! This platform serves as a canvas to exhibit my 
 
 This website is powered by cutting-edge technologies and frameworks, including:
 
-🚀 Next.js App Router
-🏭 Next.js Server Actions
-🔄 Client & Server Components
-🧪 TypeScript (Beginner & Intermediate)
-🎨 Tailwind CSS
-🧩 Context API
-🎉 Advanced Animations with Framer Motion
-📧 React.Email & Resend
-🪝 Custom React Hooks
-🎨 Sleek, Modern UI Design
-🌓 Light & Dark Mode
-📱 Responsive Website Design
+- 🚀 Next.js App Router
+- 🏭 Next.js Server Actions
+  🔄 Client & Server Components
+  🧪 TypeScript (Beginner & Intermediate)
+  🎨 Tailwind CSS
+  🧩 Context API
+  🎉 Advanced Animations with Framer Motion
+  📧 React.Email & Resend
+  🪝 Custom React Hooks
+  🎨 Sleek, Modern UI Design
+  🌓 Light & Dark Mode
+  📱 Responsive Website Design
 
 ## Getting Started
 
@@ -55,7 +55,7 @@ Feel free to connect with me for any questions, suggestions, or potential collab
 
 ## Contact
 
-🌐 **Website:** [your-website-url.com](https://your-website-url.com)
+🌐 **Website:** [https://serhii.vercel.app/](https://serhii.vercel.app/)
 
 🐙 **GitHub:** [github.com/sergio-nezhigay](https://github.com/sergio-nezhigay)
 
