@@ -30,7 +30,7 @@ This website is powered by cutting-edge technologies and frameworks, including:
 - 🧩 Context API
 - 🎉 Advanced Animations with Framer Motion
 - 📧 React.Email & Resend
-- 🪝 Custom React Hooks
+- 🎣 Custom React Hooks
 - 🎨 Sleek, Modern UI Design
 - 🌓 Light & Dark Mode
 - 📱 Responsive Website Design
