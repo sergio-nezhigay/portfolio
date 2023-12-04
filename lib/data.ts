@@ -46,7 +46,7 @@ export const links = [
 export const projectsData = [
   {
     title: "ECO solutions Consulting",
-    description: "Personal learning landing page for the eco services company",
+    description: "Training personal project for the eco services company",
     tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
     imageUrl: ecosolutionImg,
     github: "https://github.com/sergio-nezhigay/eco",
@@ -55,7 +55,7 @@ export const projectsData = [
   {
     title: "IM Consulting",
     description:
-      "Commercial project for the site of couching services company IM Consulting",
+      "Commercial team project for the site of couching services company IM Consulting",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: imConsultingImg,
     github: "https://github.com/SoftRyzen-internship/IM-CONSULTING",
@@ -63,7 +63,7 @@ export const projectsData = [
   },
   {
     title: "CarpTravel",
-    description: "Site for Ukrainian Travel agency",
+    description: "Training personal project for Ukrainian Travel agency",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: carpTravelImg,
     github: "https://github.com/sergio-nezhigay/carptravel",
@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     title: "Legal",
-    description: "Training site for virtual law firm",
+    description: "Training personal project for virtual law firm",
     tags: ["HTML", "CSS", "SCSS", "Javascript"],
     imageUrl: legalImg,
     github: "https://github.com/sergio-nezhigay/legal",
@@ -95,7 +95,7 @@ export const projectsData = [
   },
   {
     title: "Movies",
-    description: "Movies catalogue platform",
+    description: "Training personal project - Movies catalogue platform",
     tags: ["React", "Axios", "Yup"],
     imageUrl: moviesImg,
     github: "https://github.com/sergio-nezhigay/goit-react-hw-05-movies",
@@ -103,7 +103,7 @@ export const projectsData = [
   },
   {
     title: "TaskPro",
-    description: "Tasks management app",
+    description: "Training team project - Tasks management app",
     tags: ["React", "NodeJS", "MongoDB", "Fullstack"],
     imageUrl: taskProImg,
     github: "https://github.com/HennadiiBorysevych/frontEnd_tasksPro",
@@ -127,7 +127,7 @@ export const projectsData = [
   },
   {
     title: "Qleen Landing page",
-    description: "Training project for a cleaning company",
+    description: "Training personal project for a cleaning company",
     tags: ["Webflow"],
     imageUrl: qleenImg,
     github: "",
