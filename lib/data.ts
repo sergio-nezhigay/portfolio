@@ -45,8 +45,8 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "ECO solutions Consulting",
-    description: "Training personal project for the eco services company",
+    title: "ECO solutions",
+    description: "Training personal project for an eco services company",
     tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
     imageUrl: ecosolutionImg,
     github: "https://github.com/sergio-nezhigay/eco",
