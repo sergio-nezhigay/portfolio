@@ -14,6 +14,7 @@ import taskProImg from "@/public/TaskPro.jpg";
 import webstudioImg from "@/public/webstudio.jpg";
 import miminoImg from "@/public/mimino.jpg";
 import qleenImg from "@/public/qleen.jpg";
+import ecosolutionImg from "@/public/ecosolution.jpg";
 
 export const links = [
   {
@@ -43,6 +44,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ECO solutions Consulting",
+    description: "Personal learning landing page for the eco services company",
+    tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
+    imageUrl: ecosolutionImg,
+    github: "https://github.com/sergio-nezhigay/eco",
+    live: "https://eco1-six.vercel.app/",
+  },
   {
     title: "IM Consulting",
     description:
@@ -158,7 +167,7 @@ export const experiencesData = [
 ];
 
 export const skillsData = [
-  "HTML",
+  "HTML/CSS",
   "CSS",
   "JavaScript",
   "TypeScript",
@@ -166,6 +175,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Shadcn/UI",
   "CSS Modules",
   "Styled Components",
   "Tailwind",
