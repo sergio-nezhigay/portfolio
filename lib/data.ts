@@ -15,7 +15,7 @@ import webstudioImg from "@/public/webstudio.jpg";
 import miminoImg from "@/public/mimino.jpg";
 import qleenImg from "@/public/qleen.jpg";
 import ecoSolutionImg from "@/public/ecosolution.jpg";
-import devOverflowImg from "@/public/dev-oveflow.jpg";
+import devOverflowImg from "@/public/dev-overflow.jpg";
 
 export const links = [
   {
