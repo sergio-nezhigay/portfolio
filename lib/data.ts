@@ -14,7 +14,8 @@ import taskProImg from "@/public/TaskPro.jpg";
 import webstudioImg from "@/public/webstudio.jpg";
 import miminoImg from "@/public/mimino.jpg";
 import qleenImg from "@/public/qleen.jpg";
-import ecosolutionImg from "@/public/ecosolution.jpg";
+import ecoSolutionImg from "@/public/ecosolution.jpg";
+import devOverflowImg from "@/public/dev-oveflow.jpg";
 
 export const links = [
   {
@@ -45,10 +46,19 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Dev Flow",
+    description:
+      "Training personal project for implementing a community-driven platform for asking and answering programming questions. ",
+    tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
+    imageUrl: devOverflowImg,
+    github: "https://github.com/sergio-nezhigay/stack_overflow_next14",
+    live: "https://stack-overflow-next14.vercel.app/",
+  },
+  {
     title: "ECO solutions",
     description: "Training personal project for an eco services company",
     tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
-    imageUrl: ecosolutionImg,
+    imageUrl: ecoSolutionImg,
     github: "https://github.com/sergio-nezhigay/eco",
     live: "https://eco1-six.vercel.app/",
   },
