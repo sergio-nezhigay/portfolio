@@ -49,7 +49,7 @@ export const projectsData = [
     title: "Dev Flow",
     description:
       "Training personal project for implementing a community-driven platform for asking and answering programming questions. ",
-    tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
+    tags: ["React", "Tailwind", "Shadcn/ui", "Next.js", "MongoDB"],
     imageUrl: devOverflowImg,
     github: "https://github.com/sergio-nezhigay/stack_overflow_next14",
     live: "https://stack-overflow-next14.vercel.app/",
