@@ -55,6 +55,14 @@ export const projectsData = [
     live: "https://stack-overflow-next14.vercel.app/",
   },
   {
+    title: "CarpTravel",
+    description: "Training personal project for Ukrainian Travel agency",
+    tags: ["React", "Next.js", "Tailwind", "Shadcn/ui"],
+    imageUrl: carpTravelImg,
+    github: "https://github.com/sergio-nezhigay/carptravel-ts",
+    live: "https://carptravel-ts.vercel.app/",
+  },
+  {
     title: "ECO solutions",
     description: "Training personal project for an eco services company",
     tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
@@ -70,14 +78,6 @@ export const projectsData = [
     imageUrl: imConsultingImg,
     github: "https://github.com/SoftRyzen-internship/IM-CONSULTING",
     live: "https://im-consulting.vercel.app/",
-  },
-  {
-    title: "CarpTravel",
-    description: "Training personal project for Ukrainian Travel agency",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: carpTravelImg,
-    github: "https://github.com/sergio-nezhigay/carptravel",
-    live: "https://carptravelling.vercel.app/",
   },
   {
     title: "Legal",
