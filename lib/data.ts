@@ -59,7 +59,7 @@ export const projectsData = [
   {
     title: "Gift Studio",
     description:
-      "Led a team and served as the headless CMS Sanity responsible in a commercial project for a company that creates edible bouquets",
+      "Led a team and served as the headless CMS Sanity responsible in a commercial for a company that creates edible bouquets",
     tags: ["Sanity", "React", "Tailwind", "Next.js"],
     imageUrl: giftImg,
     github: "https://github.com/SoftRyzen-internship/gift-studio",
