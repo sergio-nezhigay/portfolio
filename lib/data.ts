@@ -16,6 +16,8 @@ import miminoImg from "@/public/mimino.jpg";
 import qleenImg from "@/public/qleen.jpg";
 import ecoSolutionImg from "@/public/ecosolution.jpg";
 import devOverflowImg from "@/public/dev-overflow.jpg";
+import tortImg from "@/public/tort.jpg";
+import giftImg from "@/public/gift.jpg";
 
 export const links = [
   {
@@ -45,6 +47,24 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "De_tort",
+    description:
+      "Commercial team project with different parts, including a multifunctional Form component",
+    tags: ["Strapi", "React", "Tailwind", "Next.js", "Shadcn/ui"],
+    imageUrl: tortImg,
+    github: "https://github.com/SoftRyzen-internship/de-tort",
+    live: "https://de-tort.vercel.app/",
+  },
+  {
+    title: "Gift Studio",
+    description:
+      "Led a team and served as the headless CMS Sanity responsible in a commercial project for a company that creates edible bouquets",
+    tags: ["Sanity", "React", "Tailwind", "Next.js"],
+    imageUrl: giftImg,
+    github: "https://github.com/SoftRyzen-internship/gift-studio",
+    live: "https://www.gift-studio.com.ua/",
+  },
   {
     title: "Dev Flow",
     description:
