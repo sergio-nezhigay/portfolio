@@ -188,11 +188,12 @@ export const experiencesData = [
     date: "2015 - present",
   },
   {
-    title: "Frontend developer",
-    location: "Kyiv",
-    description: "Internship commercial project at SoftRyzen",
+    title: "Frontend developer intern",
+    location: "remote",
+    description:
+      "Worked on various commercial projects during the internship at SoftRyzen",
     icon: React.createElement(SiNextdotjs),
-    date: "2023, September",
+    date: "2023, September - 2024, March",
   },
 ];
 

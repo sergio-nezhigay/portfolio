@@ -61,7 +61,7 @@ Feel free to connect with me for any questions, suggestions, or potential collab
 
 💼 **LinkedIn:** [linkedin.com/in/nezhigay-serhiy](https://linkedin.com/in/nezhigay-serhiy)
 
-📧 **Email:** abc1971h@gmail.com
+📧 **Email:** nezhihai@gmail.com
 
 ✈️ **Telegram:** [t.me/abc1971h](https://t.me/abc1971h)
 
