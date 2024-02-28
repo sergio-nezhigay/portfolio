@@ -211,6 +211,8 @@ export const skillsData = [
   "Tailwind",
   "Bootstrap",
   "MUI",
+  "Strapi",
+  "Sanity",
   "MongoDB",
   "Redux",
   "Webflow",
