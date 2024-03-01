@@ -54,7 +54,7 @@ export const projectsData = [
     tags: ["Strapi", "React", "Tailwind", "Next.js", "Shadcn/ui"],
     imageUrl: tortImg,
     github: "https://github.com/SoftRyzen-internship/de-tort",
-    live: "https://de-tort.vercel.app/",
+    live: "https://de-tort.com.ua/",
   },
   {
     title: "Gift Studio",
