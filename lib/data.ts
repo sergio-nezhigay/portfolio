@@ -48,6 +48,15 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Dev Flow",
+    description:
+      "Training fullstack project for implementing a community-driven platform for asking and answering programming questions. ",
+    tags: ["React", "Tailwind", "Shadcn/ui", "Next.js", "MongoDB"],
+    imageUrl: devOverflowImg,
+    github: "https://github.com/sergio-nezhigay/stack_overflow_next14",
+    live: "https://stack-overflow-next14.vercel.app/",
+  },
+  {
     title: "De_tort",
     description:
       "Commercial team project with different parts, including a multifunctional Form component",
@@ -64,15 +73,6 @@ export const projectsData = [
     imageUrl: giftImg,
     github: "https://github.com/SoftRyzen-internship/gift-studio",
     live: "https://www.gift-studio.com.ua/",
-  },
-  {
-    title: "Dev Flow",
-    description:
-      "Training personal project for implementing a community-driven platform for asking and answering programming questions. ",
-    tags: ["React", "Tailwind", "Shadcn/ui", "Next.js", "MongoDB"],
-    imageUrl: devOverflowImg,
-    github: "https://github.com/sergio-nezhigay/stack_overflow_next14",
-    live: "https://stack-overflow-next14.vercel.app/",
   },
   {
     title: "CarpTravel",
