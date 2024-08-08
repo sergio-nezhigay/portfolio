@@ -11,7 +11,7 @@ export default function Codewars() {
     >
       <SectionHeading>My Codewars Rank</SectionHeading>
       <a
-        href="https://www.codewars.com/users/sergio-nezhigay"
+        href="https://www.codewars.com/users/sergio-nezhigay/badges/large"
         target="_blank"
         rel="noreferrer noopener"
         aria-label="link to my codewars profile"

@@ -18,6 +18,7 @@ import ecoSolutionImg from "@/public/ecosolution.jpg";
 import devOverflowImg from "@/public/dev-overflow.jpg";
 import tortImg from "@/public/tort.jpg";
 import giftImg from "@/public/gift.jpg";
+import byteImg from "@/public/byte.jpg";
 
 export const links = [
   {
@@ -48,9 +49,18 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Byte e-store",
+    description:
+      "A React Remix Hydrogen Shopify implementation for the online store byte.com.ua.",
+    tags: ["React", "Remix", "Tailwind", "Shopify"],
+    imageUrl: byteImg,
+    github: "https://github.com/sergio-nezhigay/hydrogen-demo9",
+    live: "https://byte.com.ua/",
+  },
+  {
     title: "Dev Flow",
     description:
-      "Training fullstack project for implementing a community-driven platform for asking and answering programming questions. ",
+      "A full-stack training project for creating a community-driven platform to ask and answer programming questions.",
     tags: ["React", "Tailwind", "Shadcn/ui", "Next.js", "MongoDB"],
     imageUrl: devOverflowImg,
     github: "https://github.com/sergio-nezhigay/stack_overflow_next14",
@@ -59,7 +69,7 @@ export const projectsData = [
   {
     title: "De_tort",
     description:
-      "Commercial team project with different parts, including a multifunctional Form component",
+      "A commercial team project consisting of various parts, including a multifunctional Form component.",
     tags: ["Strapi", "React", "Tailwind", "Next.js", "Shadcn/ui"],
     imageUrl: tortImg,
     github: "https://github.com/SoftRyzen-internship/de-tort",
@@ -68,7 +78,7 @@ export const projectsData = [
   {
     title: "Gift Studio",
     description:
-      "Led a team and served as the headless CMS Sanity responsible in a commercial for a company that creates edible bouquets",
+      "Led a team and served as the headless CMS Sanity lead in a commercial project for a company that creates edible bouquets.",
     tags: ["Sanity", "React", "Tailwind", "Next.js"],
     imageUrl: giftImg,
     github: "https://github.com/SoftRyzen-internship/gift-studio",
@@ -76,15 +86,15 @@ export const projectsData = [
   },
   {
     title: "CarpTravel",
-    description: "Training personal project for Ukrainian Travel agency",
+    description: "A personal training project for a Ukrainian travel agency.",
     tags: ["React", "Next.js", "Tailwind", "Shadcn/ui"],
     imageUrl: carpTravelImg,
     github: "https://github.com/sergio-nezhigay/carptravel-ts",
     live: "https://carptravel-ts.vercel.app/",
   },
   {
-    title: "ECO solutions",
-    description: "Training personal project for an eco services company",
+    title: "ECO Solutions",
+    description: "A personal training project for an eco services company.",
     tags: ["Shadcn/ui", "React", "Next.js", "Tailwind"],
     imageUrl: ecoSolutionImg,
     github: "https://github.com/sergio-nezhigay/eco",
@@ -93,7 +103,7 @@ export const projectsData = [
   {
     title: "IM Consulting",
     description:
-      "Commercial team project for the site of couching services company IM Consulting",
+      "A commercial team project for the website of a coaching services company, IM Consulting.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: imConsultingImg,
     github: "https://github.com/SoftRyzen-internship/IM-CONSULTING",
@@ -101,7 +111,7 @@ export const projectsData = [
   },
   {
     title: "Legal",
-    description: "Training personal project for virtual law firm",
+    description: "A personal training project for a virtual law firm.",
     tags: ["HTML", "CSS", "SCSS", "Javascript"],
     imageUrl: legalImg,
     github: "https://github.com/sergio-nezhigay/legal",
@@ -109,7 +119,7 @@ export const projectsData = [
   },
   {
     title: "News",
-    description: "Training team project for news site",
+    description: "A team training project for a news website.",
     tags: ["HTML", "CSS", "SCSS", "Javascript"],
     imageUrl: newsImg,
     github: "https://github.com/GregTerekhov/news-project",
@@ -117,7 +127,7 @@ export const projectsData = [
   },
   {
     title: "Informatica",
-    description: "E-commerce commercial site for computer parts store",
+    description: "An e-commerce site for a computer parts store.",
     tags: ["WordPress", "Woocommerce"],
     imageUrl: informaticaImg,
     github: "",
@@ -125,7 +135,7 @@ export const projectsData = [
   },
   {
     title: "Movies",
-    description: "Training personal project - Movies catalogue platform",
+    description: "A personal training project for a movie catalog platform.",
     tags: ["React", "Axios", "Yup"],
     imageUrl: moviesImg,
     github: "https://github.com/sergio-nezhigay/goit-react-hw-05-movies",
@@ -133,7 +143,7 @@ export const projectsData = [
   },
   {
     title: "TaskPro",
-    description: "Training team project - Tasks management app",
+    description: "A team training project for a task management app.",
     tags: ["React", "NodeJS", "MongoDB", "Fullstack"],
     imageUrl: taskProImg,
     github: "https://github.com/HennadiiBorysevych/frontEnd_tasksPro",
@@ -141,7 +151,7 @@ export const projectsData = [
   },
   {
     title: "Webstudio",
-    description: "Training site for virtual webstudio",
+    description: "A training project for a virtual web studio.",
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: webstudioImg,
     github: "https://github.com/sergio-nezhigay/goit-markup-hw-08",
@@ -149,15 +159,15 @@ export const projectsData = [
   },
   {
     title: "Mimino",
-    description: "Training team project for restaurant",
+    description: "A team training project for a restaurant website.",
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: miminoImg,
     github: "https://github.com/GregTerekhov/mimino-project",
     live: "https://gregterekhov.github.io/mimino-project/",
   },
   {
-    title: "Qleen Landing page",
-    description: "Training personal project for a cleaning company",
+    title: "Qleen Landing Page",
+    description: "A personal training project for a cleaning company.",
     tags: ["Webflow"],
     imageUrl: qleenImg,
     github: "",
@@ -199,12 +209,11 @@ export const experiencesData = [
 
 export const skillsData = [
   "HTML/CSS",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
+  "JavaScript/TypeScript",
   "React",
   "Redux",
   "Next.js",
+  "Remix",
   "Radix",
   "Node.js",
   "Git",
