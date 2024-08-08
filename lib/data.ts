@@ -51,7 +51,7 @@ export const projectsData = [
   {
     title: "Byte e-store",
     description:
-      "A React Remix Hydrogen Shopify implementation for the online store byte.com.ua.",
+      "A React Remix Hydrogen Shopify implementation for the online store byte.com.ua. Quite fast one.",
     tags: ["React", "Remix", "Tailwind", "Shopify"],
     imageUrl: byteImg,
     github: "https://github.com/sergio-nezhigay/hydrogen-demo9",
