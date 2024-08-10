@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 
@@ -16,12 +17,19 @@ export default function Codewars() {
         rel="noreferrer noopener"
         aria-label="link to my codewars profile"
       >
-        <Image
+        <img
           src="https://www.codewars.com/users/sergio-nezhigay/badges/large"
           alt="Codewars Badge"
           width={400}
           height={100}
+          loading="lazy"
         />
+        {/*<Image
+          src="https://www.codewars.com/users/sergio-nezhigay/badges/large"
+          alt="Codewars Badge"
+          width={400}
+          height={100}
+        />*/}
       </a>
     </section>
   );
