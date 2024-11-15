@@ -1,0 +1,24 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v20.14.0
+3 silly config load:file:C:\Users\user\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\portfolio\.npmrc
+5 silly config load:file:C:\Users\user\.npmrc
+6 silly config load:file:C:\Users\user\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\projects\portfolio\npm-cache\_logs\2024-11-15T09_11_23_185Z-
+10 verbose logfile C:\projects\portfolio\npm-cache\_logs\2024-11-15T09_11_23_185Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 266ms
+13 verbose cwd C:\projects\portfolio
+14 verbose os Windows_NT 10.0.19045
+15 verbose node v20.14.0
+16 verbose npm  v10.8.3
+17 notice
+17 notice New [33mminor[39m version of npm available! [33m10.8.3[39m -> [34m10.9.0[39m
+17 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.0[39m
+17 notice To update run: [4mnpm install -g npm@10.9.0[24m
+17 notice  { force: true, [Symbol(proc-log.meta)]: true }
+18 verbose exit 1
+19 verbose code 1
