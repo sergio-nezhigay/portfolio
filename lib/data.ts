@@ -18,6 +18,7 @@ import devOverflowImg from '@/public/dev-overflow.jpg';
 import tortImg from '@/public/tort.jpg';
 import giftImg from '@/public/gift.jpg';
 import informImg from '@/public/informatica.webp';
+import suiteImg from '@/public/suite.jpg';
 
 export const links = [
   {
@@ -53,7 +54,16 @@ export const projectsData = [
       'A React-based Shopify Online Store Powered by Remix and Hydrogen',
     tags: ['React', 'Remix', 'Tailwind', 'Shopify'],
     imageUrl: informImg,
-    github: 'https://github.com/sergio-nezhigay/hydrogen-demo9',
+    github: 'https://github.com/sergio-nezhigay/hydrogen',
+    live: 'https://informatica.com.ua/',
+  },
+  {
+    title: 'Ecommerce Suite',
+    description:
+      'Shopify app using Gadget.dev, Hydrogen, Node.js, OpenAI, and multiple APIs',
+    tags: ['React', 'Remix', 'Shopify'],
+    imageUrl: suiteImg,
+    github: 'https://github.com/sergio-nezhigay/suite',
     live: 'https://informatica.com.ua/',
   },
   {

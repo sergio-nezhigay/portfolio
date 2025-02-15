@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.12.0
+3 silly config load:file:C:\Users\user\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\portfolio\.npmrc
+5 silly config load:file:C:\Users\user\.npmrc
+6 silly config load:file:C:\Users\user\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm config get registry
+8 verbose argv "config" "get" "registry"
+9 verbose logfile logs-max:10 dir:C:\projects\portfolio\npm-cache\_logs\2025-02-15T07_30_19_786Z-
+10 verbose logfile C:\projects\portfolio\npm-cache\_logs\2025-02-15T07_30_19_786Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\projects\portfolio
+13 verbose os Windows_NT 10.0.19045
+14 verbose node v22.12.0
+15 verbose npm  v11.1.0
+16 verbose exit 0
+17 info ok
