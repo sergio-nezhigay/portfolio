@@ -17,7 +17,9 @@ import ecoSolutionImg from '@/public/ecosolution.jpg';
 import devOverflowImg from '@/public/dev-overflow.jpg';
 import tortImg from '@/public/tort.jpg';
 import giftImg from '@/public/gift.jpg';
+import discountImg from '@/public/discount.webp';
 import informImg from '@/public/informatica.webp';
+import informLiquidImg from '@/public/informatica-liquid.webp';
 import suiteImg from '@/public/suite.jpg';
 
 export const links = [
@@ -49,19 +51,42 @@ export const links = [
 
 export const projectsData = [
   {
-    title: 'Informatica Commerce E-Store',
+    title: 'Custom Shopify Theme – Dawn Based',
     description:
-      'A React-based Shopify Online Store Powered by Remix and Hydrogen',
-    tags: ['React', 'Remix', 'Tailwind', 'Shopify'],
-    imageUrl: informImg,
-    github: 'https://github.com/sergio-nezhigay/hydrogen',
+      'Developed a fully customized Shopify theme using Liquid, JavaScript, and theme app extensions to deliver bespoke design and functionality.',
+    tags: ['Shopify', 'Liquid', 'THEME CUSTOMIZATION'],
+    imageUrl: informLiquidImg,
+    github: 'https://github.com/sergio-nezhigay/dawn',
     live: 'https://informatica.com.ua/',
   },
   {
-    title: 'Ecommerce Suite',
+    title: 'Shopify Discounts App with Google Dynamic Pricing',
     description:
-      'Shopify app using Gadget.dev, Hydrogen, Node.js, OpenAI, and multiple APIs',
-    tags: ['React', 'Remix', 'Shopify'],
+      'Developed a Shopify public app to integrate Google’s AI-powered Automated Discounts. Enabled dynamic, performance-based sale pricing directly on product pages and in Google Shopping Ads.',
+    tags: [
+      'Shopify Public App',
+      'Shopify Discount function API',
+      'Google Merchant Center',
+      'JWT',
+    ],
+    imageUrl: discountImg,
+    github: 'https://github.com/sergio-nezhigay/dynamic-discounts',
+    live: 'https://support.google.com/merchants/answer/15152429?hl=en',
+  },
+  {
+    title: 'Shopify Hydrogen Commerce Store',
+    description:
+      'A modern React-based Shopify storefront built with Hydrogen and Remix, optimized for performance and flexibility',
+    tags: ['Shopify', 'React', 'Remix', 'Tailwind'],
+    imageUrl: informImg,
+    github: 'https://github.com/sergio-nezhigay/hydrogen',
+    live: 'https://hydrogen-92203766527a550b97d1.o2.myshopify.dev/',
+  },
+  {
+    title: 'Ecommerce Suite App',
+    description:
+      'A robust Shopify app developed with Gadget.dev, Hydrogen, Node.js, OpenAI, and third-party API integrations to enhance store operations',
+    tags: ['Shopify', 'React', 'Remix'],
     imageUrl: suiteImg,
     github: 'https://github.com/sergio-nezhigay/suite',
     live: 'https://informatica.com.ua/',
@@ -69,7 +94,7 @@ export const projectsData = [
   {
     title: 'Dev Flow',
     description:
-      'A full-stack training project for creating a community-driven platform to ask and answer programming questions.',
+      'A full-stack community platform for developers to ask and answer programming questions—built as a practical training project',
     tags: ['React', 'Tailwind', 'Shadcn/ui', 'Next.js', 'MongoDB'],
     imageUrl: devOverflowImg,
     github: 'https://github.com/sergio-nezhigay/stack_overflow_next14',
@@ -78,7 +103,7 @@ export const projectsData = [
   {
     title: 'De_tort',
     description:
-      'A commercial team project consisting of various parts, including a multifunctional Form component.',
+      'A commercial project built in a team setting, featuring complex components like a dynamic, multifunctional form',
     tags: ['Strapi', 'React', 'Tailwind', 'Next.js', 'Shadcn/ui'],
     imageUrl: tortImg,
     github: 'https://github.com/SoftRyzen-internship/de-tort',
@@ -87,7 +112,7 @@ export const projectsData = [
   {
     title: 'Gift Studio',
     description:
-      'Led a team and served as the headless CMS Sanity lead in a commercial project for a company that creates edible bouquets.',
+      'Led a team and served as the headless CMS Sanity lead in a commercial project for a company that creates edible bouquets',
     tags: ['Sanity', 'React', 'Tailwind', 'Next.js'],
     imageUrl: giftImg,
     github: 'https://github.com/SoftRyzen-internship/gift-studio',
@@ -180,29 +205,39 @@ export const experiencesData = [
   {
     title: 'Specialist Degree in Computer and Network Systems',
     location: 'Donetsk Technical University',
-    description: 'I graduated after 5 years of studying.',
+    description:
+      'Completed a 5-year program focused on network infrastructure, computing systems, and IT fundamentals',
     icon: React.createElement(LuGraduationCap),
   },
   {
-    title: 'Fullstack Developer',
+    title: 'Fullstack Developer Certification',
     location: 'Online',
-    description: 'I graduated after 12 month of studying.',
+    description:
+      'Completed a 12-month full-stack development program covering modern web technologies including React, Node.js, and databases',
     icon: React.createElement(FaReact),
     date: '2022 - 2023',
   },
   {
-    title: 'Site Support Manager',
+    title: 'Site Support Manager – Informatica',
     location: 'Informatica',
     description:
-      "I'm currently a site support manager. Responsibilities include site updating and functionality improvements, with a focus on JavaScript and WordPress.",
+      'Responsible for maintaining and improving website performance, implementing JavaScript-based features, and managing WordPress content and functionality',
     icon: React.createElement(BsWordpress),
     date: '2015 - present',
   },
   {
-    title: 'Frontend developer intern',
+    title: '1st Place – Luxoft Hackathon',
+    location: 'Kyiv / Remote',
+    description:
+      'Our team won first place at the Luxoft Hackathon by developing an inclusive map of Kyiv for wheelchair users. We focused on accessibility, usability, and leveraging tech for social impact.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2023',
+  },
+  {
+    title: 'Frontend Developer Intern – SoftRyzen',
     location: 'remote',
     description:
-      'Worked on various commercial projects during the internship at SoftRyzen',
+      'Contributed to real-world commercial projects using React, Next.js, and headless CMS tools during a six-month remote internship.',
     icon: React.createElement(SiNextdotjs),
     date: '2023, September - 2024, March',
   },
