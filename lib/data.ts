@@ -120,7 +120,8 @@ export const projectsData = [
   },
   {
     title: 'CarpTravel',
-    description: 'A personal training project for a Ukrainian travel agency.',
+    description:
+      'Personal training project: a travel website for a Ukrainian agency, built with React, Next.js, and Tailwind.',
     tags: ['React', 'Next.js', 'Tailwind', 'Shadcn/ui'],
     imageUrl: carpTravelImg,
     github: 'https://github.com/sergio-nezhigay/carptravel-ts',
@@ -244,28 +245,35 @@ export const experiencesData = [
 ];
 
 export const skillsData = [
+  // Languages & Frameworks
   'HTML/CSS',
   'JavaScript/TypeScript',
+  'Liquid',
   'React',
   'Redux',
   'Next.js',
   'Remix',
   'Radix',
-  'Node.js',
-  'Git',
-  'Shadcn/UI',
+  // Styling
+  'Tailwind',
   'CSS Modules',
   'Styled Components',
-  'Tailwind',
   'Bootstrap',
   'MUI',
-  'Strapi',
-  'Sanity',
-  'MongoDB',
+  // Backend & APIs
+  'Node.js',
   'GraphQL',
   'REST API',
+  'MongoDB',
+  'Strapi',
+  'Sanity',
+  // Tools & Platforms
+  'Git',
+  'Shopify',
   'Webflow',
-  'Wordpress',
+  'WordPress',
+  'Gadget.dev',
+  // Marketing & SEO
   'Adwords',
   'SEO',
 ] as const;
