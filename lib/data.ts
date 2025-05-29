@@ -1,8 +1,7 @@
 import React from 'react';
-import { SiNextdotjs } from 'react-icons/si';
+import { SiNextdotjs, SiShopify } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import { BsWordpress } from 'react-icons/bs';
 
 import imConsultingImg from '@/public/im-consulting.jpg';
 import carpTravelImg from '@/public/CarpTravel.jpg';
@@ -204,27 +203,20 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Specialist Degree in Computer and Network Systems',
-    location: 'Donetsk Technical University',
-    description:
-      'Completed a 5-year program focused on network infrastructure, computing systems, and IT fundamentals',
-    icon: React.createElement(LuGraduationCap),
-  },
-  {
-    title: 'Fullstack Developer Certification',
-    location: 'Online',
-    description:
-      'Completed a 12-month full-stack development program covering modern web technologies including React, Node.js, and databases',
-    icon: React.createElement(FaReact),
-    date: '2022 - 2023',
-  },
-  {
-    title: 'Site Support Manager – Informatica',
+    title: 'Shopify Web Developer',
     location: 'Informatica',
     description:
-      'Responsible for maintaining and improving website performance, implementing JavaScript-based features, and managing WordPress content and functionality',
-    icon: React.createElement(BsWordpress),
-    date: '2015 - present',
+      'Designed, developed, and maintain the company website with a focus on performance, custom Shopify functionality, and seamless integration into the company’s internal workflow. Built admin features tailored to business operations, improving efficiency and automating manual tasks.',
+    icon: React.createElement(SiShopify),
+    date: '2024 - present',
+  },
+  {
+    title: 'Frontend Developer Intern – SoftRyzen',
+    location: 'remote',
+    description:
+      'Contributed to real-world commercial projects using React, Next.js, and headless CMS tools during a six-month remote internship.',
+    icon: React.createElement(SiNextdotjs),
+    date: '2023, September - 2024, March',
   },
   {
     title: '1st Place – Luxoft Hackathon',
@@ -235,12 +227,19 @@ export const experiencesData = [
     date: '2023',
   },
   {
-    title: 'Frontend Developer Intern – SoftRyzen',
-    location: 'remote',
+    title: 'Fullstack Developer Certification',
+    location: 'Online',
     description:
-      'Contributed to real-world commercial projects using React, Next.js, and headless CMS tools during a six-month remote internship.',
-    icon: React.createElement(SiNextdotjs),
-    date: '2023, September - 2024, March',
+      'Completed a 12-month full-stack development program covering modern web technologies including React, Node.js, and databases',
+    icon: React.createElement(FaReact),
+    date: '2022 - 2023',
+  },
+  {
+    title: 'Specialist Degree in Computer and Network Systems',
+    location: 'Donetsk Technical University',
+    description:
+      'Completed a 5-year program focused on network infrastructure, computing systems, and IT fundamentals',
+    icon: React.createElement(LuGraduationCap),
   },
 ];
 
